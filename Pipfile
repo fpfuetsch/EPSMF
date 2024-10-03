@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+ipympl = "*"
+scipy = "1.11.0"
+scikit-learn = "*"
+pyyaml = "*"
+ipykernel = "*"
+pandas = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-mock = "*"
+black = {extras = ["jupyter"], version = "*"}
+
+[requires]
+python_version = "3.11"
